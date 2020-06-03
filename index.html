@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Exchange Rates</title>
+</head>
+<body>
+    <main id="main">
+
+        <h1 id="title">Курсы валют ПриватБанка</h1>
+       
+        <section id="branchesBank">
+            <table>
+                <caption>Наличный курс ПриватБанка (в отделениях):</caption>
+                <tbody>
+                    <tr>
+                        <th colspan="2">Валюта</th>
+                        <th>Покупка</th>
+                        <th>Продажа</th>
+                    </tr> 
+                    <tr>
+                        <th>USD</th>
+                        <th>UAH</th>
+                        <th id="branchesBank__USD-buy">---</th>
+                        <th id="branchesBank__USD-sale">---</th>
+                    </tr> 
+                    <tr>
+                        <th>EUR</th>
+                        <th>UAH</th>
+                        <th id="branchesBank__EUR-buy">---</th>
+                        <th id="branchesBank__EUR-sale">---</th>
+                    </tr> 
+                    <tr>
+                        <th>RUR</th>
+                        <th>UAH</th>
+                        <th id="branchesBank__RUR-buy">---</th>
+                        <th id="branchesBank__RUR-sale">---</th>
+                    </tr> 
+                </tbody>
+            </table>
+            <button id="branchesBank__button">Обновить</button>
+        </section>
+
+
+        <section id="cashlessCourse">
+            <table>
+                <caption>Безналичный курс ПриватБанка <br>(конвертация по картам, Приват24, пополнение вкладов):</caption>
+                <tbody>
+                    <tr>
+                        <th colspan="2">Валюта</th>
+                        <th>Покупка</th>
+                        <th>Продажа</th>
+                    </tr> 
+                    <tr>
+                        <th>USD</th>
+                        <th>UAH</th>
+                        <th id="cashlessCourse__USD-buy">---</th>
+                        <th id="cashlessCourse__USD-sale">---</th>
+                    </tr> 
+                    <tr>
+                        <th>EUR</th>
+                        <th>UAH</th>
+                        <th id="cashlessCourse__EUR-buy">---</th>
+                        <th id="cashlessCourse__EUR-sale">---</th>
+                    </tr> 
+                    <tr>
+                        <th>RUR</th>
+                        <th>UAH</th>
+                        <th id="cashlessCourse__RUR-buy">---</th>
+                        <th id="cashlessCourse__RUR-sale">---</th>
+                    </tr> 
+                </tbody>
+            </table>
+            <button id="cashlessCourse__button">Обновить</button>
+        </section>
+
+        <p>Инфо подтягиваеться с <a href="https://api.privatbank.ua/#p24/exchange" target="blank">сайта</a></p>
+
+
+
+
+
+        <script src="js/branchesBank.js"></script>
+        <script src="js/cashlessCourse.js"></script>
+        
+    </main>
+</body>
+</html>

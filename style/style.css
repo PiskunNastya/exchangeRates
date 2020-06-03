@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Palatino Linotype"
+}
+
+body {
+    background: url(../img/background.jpg);
+}
+
+#main {
+    width: 50%;
+    height: 95vh;
+    background: rgb(143, 188, 149);
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid rgb(37, 94, 45);
+    border-radius: 8px;
+    min-height: 920px;
+} 
+
+#title {
+    padding: 25px 0;
+}
+
+table {
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 30px auto;
+    background: rgb(37, 94, 45);
+}
+
+th {
+    border: 2px solid rgb(7, 7, 7);
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+}
+
+button {
+    width: 610px;
+    height: 34px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background: rgb(37, 94, 45);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    color: rgb(37, 94, 45);
+    background: rgb(255, 255, 255);
+    -webkit-box-shadow: inset -1px -6px 26px 5px rgba(45, 43, 170, 0.66);
+    -moz-box-shadow: inset -1px -6px 26px 5px rgba(65, 155, 110, 0.66);
+    box-shadow: inset -1px -6px 26px 5px rgba(30, 100, 9, 0.66);
+}
+
+section {
+    padding-bottom: 20px;
+}
+
+
+p {
+    padding-top: 50px;
+}
